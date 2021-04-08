@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.farmer.trader.applications">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/farmer_icon"
+        android:label="Farm-E-Go"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@drawable/farmer_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AddProductActivity" />
+        <activity android:name=".FarmerProductDetail_Activity" />
+        <activity android:name=".OcrDetail_Activity" />
+        <activity android:name=".OcrCaptureActivity" />
+
+        <activity android:name=".R_ProductList_Activity"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity android:name=".R_Home_Activity" />
+
+        <activity android:name=".R_ProductDetail_Activity" />
+        <activity android:name=".R_Cart_Activity" />
+        <activity android:name=".R_OrderList_Activity"/>
+        <activity android:name=".R_ReviewList_Activity"/>
+        <activity android:name=".R_FavouriteList_Activity"/>
+        <activity android:name=".R_ProfileActivity"/>
+
+        <activity android:name=".CertificateActivity"/>
+
+
+        <service android:name=".BackgroundService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAW0TtwylcTDhpGmV9jyw0e-_hMjTioUvs" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+    </application>
+
+</manifest>

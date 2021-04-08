@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Farm-E-Go</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+
+    <!--LogIn screen-->
+    <string name="login_header">LOGIN</string>
+    <string name="email_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="empty_user">User Name is Required</string>
+    <string name="empty_password">Password is Required</string>
+    <string name="Invalid_login">Invalid User</string>
+
+
+    <!--RegisterDialog-->
+    <string name="select_type">Select Registration Type</string>
+    <string name="mahila_option">Jago Mahila</string>
+    <string name="retailot_option">Customer</string>
+    <string name="farmer_option">Farmer</string>
+    
+    
+    <!--Registration Screen-->
+    <string name="register_header">Register</string>
+    <string name="name_hint">Name</string>
+    <string name="contact_hint">Contact</string>
+    <string name="emailId_hint">Email Id</string>
+    <string name="username_hint">UserName</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="aadhar_hint">Aadhar Number</string>
+    <string name="upload_certificate_hint">Upload Certificate</string>
+    <string name="address_hint">Address</string>
+
+    <string name="empty_name">Name is required</string>
+    <string name="empty_contact">Contact is required</string>
+    <string name="empty_username">Username is required</string>
+    <string name="empty_confirmpass">Confirm Password is required</string>
+    <string name="password_notmatch">Password Does Not Match</string>
+    <string name="empty_aadhar">Aadhar Number is required</string>
+    <string name="empty_address">Address is required</string>
+    <string name="register_all">All fields are mandatory. Please enter all details</string>
+    <string name="register_sucess">Registration Successful</string>
+    <string name="register_already">Entered UserName is already existing</string>
+
+
+    <!--Main Activity-->
+    <string name="products">Products</string>
+    <string name="profile">Profile</string>
+    <string name="orders">Orders</string>
+    <string name="payment">Payments</string>
+    <string name="Helpline">HelpLine</string>
+    <string name="logout">Logout</string>
+
+
+
+    <!--R_Home Activity-->
+    <string name="AllType">All</string>
+    <string name="EatableType">Eatables</string>
+    <string name="HandcraftedType">Handicrafts</string>
+    <string name="FruitsType">Fruits</string>
+    <string name="VegetableType">Vegetables</string>
+    <string name="GrainType">Grains</string>
+    <string name="ProfileType">Profile</string>
+    <string name="CartType">Cart</string>
+    <string name="OrderType">Orders</string>
+    <string name="ReviewType">Review</string>
+    <string name="FavoriteType">Favorite</string>
+    <string name="LogoutType">Logout</string>
+
+    <string name="currency">INR</string>
+
+    <!--Mahila Udhyog-->
+    <string name="mahila_product_type">Select Product Type</string>
+    <string name="Select_eatables">Eatables</string>
+    <string name="Select_handcrafts">Handicrafts</string>
+
+    <!--Farmer Portal-->
+    <string name="Farmer_product_type">Select Product Type</string>
+    <string name="Update_word" translatable="false">Update</string>
+    <string name="Delete_word">Delete</string>
+    <string name="Location_word">Location</string>
+    <string name="Sub_Type">Sub Type</string>
+    <string name="Main_Type">Main Type</string>
+    <string name="Description_word">Description</string>
+    <string name="Qword">Q :</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="no_location">No Location</string>
+    <string name="description">Description</string>
+    <string name="add_product">Add Product</string>
+    <string name="Dozen">Dozen</string>
+    <string name="Litre">Litre</string>
+    <string name="kilogram">kilogram</string>
+    <string name="Number">Number</string>
+
+
+</resources>
