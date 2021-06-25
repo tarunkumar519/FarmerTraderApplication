@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Farmer Trader</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+
+    <!--Login screen-->
+    <string name="login_header">లాగిన్ పేజీ</string>
+    <string name="email_hint">యూజర్ పేరు</string>
+    <string name="password_hint">పాస్వర్డ్</string>
+    <string name="signIn">లాగిన్ అవ్వండి</string>
+    <string name="signUp">రిజిస్టర్ అవ్వండి </string>
+    <string name="empty_user">వినియోగదారు పేరు ముఖ్యమైనది</string>
+    <string name="empty_password">పాస్వర్డ్ ముఖ్యమైనది</string>
+    <string name="Invalid_login">ఆధారాలు చెల్లవు</string>
+
+
+    <!--RegisterDialog-->
+    <string name="select_type">ఒక రకాన్ని ఎంచుకోండి</string>
+    <string name="mahila_option">జాగో మహిళా</string>
+    <string name="retailot_option">కస్టమర్</string>
+    <string name="farmer_option">రైతు</string>
+
+    <!--Registration Screen-->
+    <string name="register_header">నమోదు</string>
+    <string name="name_hint">పేరు</string>
+    <string name="contact_hint">సంప్రదింపు సంఖ్య</string>
+    <string name="emailId_hint">ఇమెయిల్ ఐడి</string>
+    <string name="username_hint">యూజర్ పేరు</string>
+    <string name="confirm_pass">పాస్ నిర్ధారించండి</string>
+    <string name="aadhar_hint">ఆధార్ సంఖ్య</string>
+    <string name="upload_certificate_hint">సర్టిఫికెట్‌ను అప్‌లోడ్ చేయండి</string>
+    <string name="address_hint">చిరునామా</string>
+
+    <string name="empty_name">పేరు తప్పనిసరి</string>
+    <string name="empty_contact">
+పరిచయం తప్పనిసరి</string>
+    <string name="empty_username">వినియోగదారు తప్పనిసరి</string>
+    <string name="empty_confirmpass">కీ తప్పనిసరి</string>
+    <string name="password_notmatch">
+పాస్‌వర్డ్‌లు సరిపోలడం లేదు</string>
+    <string name="empty_aadhar">
+ఆధార్ తప్పనిసరి</string>
+    <string name="empty_address">చిరునామా తప్పనిసరి</string>
+    <string name="register_all">
+అన్ని ఫీల్డ్‌లు తప్పనిసరి, దయచేసి అన్ని ఫీల్డ్‌లను పూరించండి</string>
+    <string name="register_sucess">
+నమోదు పూర్తయింది</string>
+    <string name="register_already">వినియోగదారు పేరు ఇప్పటికే ఉంది</string>
+
+    <!--Main Activity-->
+    <string name="products">ఉత్పత్తులు</string>
+    <string name="profile">
+ప్రొఫైల్</string>
+    <string name="orders">ఆర్డర్</string>
+    <string name="payment">చెల్లింపు</string>
+    <string name="Helpline">హెల్ప్లైన్</string>
+    <string name="logout">
+బయటకు వెళ్ళు</string>
+
+
+    <!--R_Home Activity-->
+    <string name="AllType">
+అన్ని రకాలు</string>
+    <string name="EatableType">తినదగినది</string>
+    <string name="HandcraftedType">
+హస్తకళ</string>
+    <string name="FruitsType">
+పండు</string>
+    <string name="VegetableType">
+కూరగాయలు</string>
+    <string name="GrainType">
+ధాన్యాలు</string>
+    <string name="ProfileType">
+ప్రొఫైల్</string>
+    <string name="CartType">కార్ట్</string>
+    <string name="OrderType">ఆర్డర్</string>
+    <string name="ReviewType">సమీక్ష</string>
+    <string name="FavoriteType">ఇష్టమైన</string>
+    <string name="LogoutType">బయటకు వెళ్ళు</string>
+
+    <string name="currency">రూ</string>
+
+    <!--Mahila Udhyog-->
+    <string name="mahila_product_type">ఒక రకాన్ని ఎంచుకోండి</string>
+    <string name="Select_eatables">తినదగినది</string>
+    <string name="Select_handcrafts">హస్తకళ</string>
+    <!--Farmer Portal-->
+    <string name="Farmer_product_type">ఒక రకాన్ని ఎంచుకోండి</string>
+    <string name="Update_word">నవీకరణ</string>
+    <string name="Delete_word">తొలగించండి</string>
+    <string name="Location_word">స్థానం</string>
+    <string name="Sub_Type">ఉప రకం</string>
+    <string name="Main_Type">ప్రధాన రకం</string>
+    <string name="Description_word">వివరణ</string>
+    <string name="Qword">మొ:</string>
+    <string name="product_name">వస్తువు పేరు</string>
+    <string name="product_price">ఉత్పత్తి ధర</string>
+    <string name="quantity">పరిమాణం</string>
+    <string name="no_location">స్థానం లేదు</string>
+    <string name="description">వివరణ</string>
+    <string name="add_product">ఉత్పత్తిని జోడించండి</string>
+    <string name="Dozen">డజన్</string>
+    <string name="Litre">లీటరుase ruio</string>
+    <string name="kilogram">కిలోగ్రాము</string>
+    <string name="Number">అంశాల సంఖ్య</string>
+
+</resources>
